@@ -15,7 +15,7 @@
 }
 
 .lightmode {
-    --bg: #f2e5bc;
+    --bg-dark: #f2e5bc;
     --bg: #fbf1c7;
     --bg-light: #ebdbb2;
 
@@ -44,11 +44,32 @@ body {
     text-rendering: optimizeLegibility
 }
 
-div {
-    background-color: var(--bg-light);
-    color: var(--fg);
+iframe {
+    width: 100%;
+    height: 10em;
+    border-radius: 8px;
+    margin-top: 1em;
 }
 
+details {
+    color: var(--fg);
+    background-color: var(--bg-light);
+}
+
+details>summary {
+    background-color: var(--bg-light);
+}
+
+details>summary:hover {
+    color: var(--yellow);
+    background-color: var(--bg-light);
+    cursor: pointer;
+}
+
+summary h2 {
+    display: inline;
+    margin: 0;
+}
 
 img {
     width: 100%;
@@ -90,9 +111,18 @@ button:hover {
     }
 }
 
+#intro {
+    border-radius: 8px;
+    border-left: 4px solid var(--aqua);
+    background-color: var(--bg-light);
+    padding: 16px;
+    margin: 16px;
+}
+
 #thesis {
     border-radius: 8px;
     border-left: 4px solid var(--purple);
+    background-color: var(--bg-light);
     padding: 16px;
     margin: 16px;
 }
@@ -100,6 +130,7 @@ button:hover {
 #music {
     border-radius: 8px;
     border-left: 4px solid var(--yellow);
+    background-color: var(--bg-light);
     margin: 16px;
     padding: 16px;
 }
@@ -110,6 +141,7 @@ button:hover {
     gap: 1em;
     border-radius: 0px;
     border-left: 0px;
+    background-color: var(--bg-light);
     padding: 8px;
 }
 
@@ -121,6 +153,7 @@ button:hover {
 #recipes {
     border-radius: 8px;
     border-left: 4px solid var(--blue);
+    background-color: var(--bg-light);
     padding: 16px;
     margin: 16px;
 }
@@ -158,10 +191,6 @@ button:hover {
     fill: var(--bg);
 }
 
-#theme-switch svg:last-child {
-    display: none
-}
-
 #theme-switch svg:first-child {
     display: none
 }
@@ -190,10 +219,6 @@ button:hover {
     margin-bottom: 16px;
 }
 
-#sidebar {
-    display: block;
-}
-
 h1,
 h2,
 h3,
@@ -201,7 +226,6 @@ h4,
 h5 {
     color: var(--yellow);
     font-weight: 600;
-    margin-top: 1.2em;
     margin-bottom: 0.4em;
 }
 
