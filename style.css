@@ -113,7 +113,7 @@ button:hover {
 
 #intro {
     border-radius: 8px;
-    border-left: 4px solid var(--aqua);
+    border-left: 4px solid var(--red);
     background-color: var(--bg-light);
     padding: 16px;
     margin: 16px;
@@ -121,7 +121,23 @@ button:hover {
 
 #thesis {
     border-radius: 8px;
-    border-left: 4px solid var(--purple);
+    border-left: 4px solid var(--yellow);
+    background-color: var(--bg-light);
+    padding: 16px;
+    margin: 16px;
+}
+
+#recipes {
+    border-radius: 8px;
+    border-left: 4px solid var(--green);
+    background-color: var(--bg-light);
+    padding: 16px;
+    margin: 16px;
+}
+
+#projects {
+    border-radius: 8px;
+    border-left: 4px solid var(--blue);
     background-color: var(--bg-light);
     padding: 16px;
     margin: 16px;
@@ -129,7 +145,7 @@ button:hover {
 
 #music {
     border-radius: 8px;
-    border-left: 4px solid var(--yellow);
+    border-left: 4px solid var(--purple);
     background-color: var(--bg-light);
     margin: 16px;
     padding: 16px;
@@ -150,13 +166,6 @@ button:hover {
     line-height: 0;
 }
 
-#recipes {
-    border-radius: 8px;
-    border-left: 4px solid var(--blue);
-    background-color: var(--bg-light);
-    padding: 16px;
-    margin: 16px;
-}
 
 #back-link {
     margin-right: 8px;
