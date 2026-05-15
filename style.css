@@ -143,6 +143,14 @@ button:hover {
     margin: 16px;
 }
 
+#mathnotes {
+    border-radius: 8px;
+    border-left: 4px solid var(--aqua);
+    background-color: var(--bg-light);
+    padding: 16px;
+    margin: 16px;
+}
+
 #music {
     border-radius: 8px;
     border-left: 4px solid var(--purple);
